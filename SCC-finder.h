@@ -22,9 +22,6 @@ void make_adjacency_list(std::vector<std::forward_list<int>> &graph, std::istrea
     } while(!istream.eof());
 
     graph.shrink_to_fit();
-
-    std::forward_list<int>::iterator iter = graph[0].begin();
-    int ok = 2;
 }
 
 void finish_time(std::forward_list<int> &finish_time_q, const std::vector<std::forward_list<int>> &graph) {

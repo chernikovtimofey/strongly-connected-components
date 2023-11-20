@@ -8,6 +8,7 @@ add_executable(MakeAdjacencyListTest tests/make-adjacency-list-test.cpp)
 add_executable(FinishTimeTest tests/finish-time-test.cpp)
 add_executable(GraphTranspositionTest tests/graph-transposition-test.cpp)
 add_executable(FindSCCTest tests/find-SCC-test.cpp)
+add_executable(LargeGraphSCCTest tests/large-graph-SCC-test.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
